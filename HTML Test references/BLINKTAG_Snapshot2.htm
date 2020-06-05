@@ -1,0 +1,126 @@
+<!-- Start of script !-->
+<!DOCTYPE html>
+<HTML lang="en">
+<BODY>
+<HEAD>
+<?php
+// Start of PHP console
+echo("PHP console for the HTML Test Reference blink tag page");
+$Power2_16 = "65536";
+// End of PHP console
+?>
+<ruby type="Text/Ruby" lang="ja">
+
+</ruby>
+<xml type="Text/XML" lang="en">
+
+</xml>
+<script type="text/javascript" lang="en">
+// Start of JavaScript console
+console.log("JavaScript console for the HTML Test reference blink tag page");
+alert("WARNING!\nThis page contains flashing lights. If you are prone to seizures, you should exit now");
+alert("This is your last chance! Continue at your own risk");
+// End of JavaScript console
+</script>
+<style type="Text/css" lang="en">
+/* CSS Example */
+blink, .blink {
+	-webkit-animation: blink 1s step-end infinite;
+	-moz-animation: blink 1s step-end infinite;
+	-o-animation: blink 1s step-end infinite;
+	animation: blink 1s step-end infinite;
+}
+@-webkit-keyframes blink {
+	67% { opacity: 0 }
+}
+@-moz-keyframes blink {
+	67% { opacity: 0 }
+}
+@-o-keyframes blink {
+	67% { opacity: 0 }
+}
+@keyframes blink {
+	67% { opacity: 0 }
+}
+</style>
+<script type="text/javascript" lang="en">
+// JQuery example
+setInterval(function(){
+	$('blink').each(function() {
+		$(this).toggle();
+});
+}, 250);
+</script>
+<script type="text/javascript" lang="en">
+// Vanilla JavaScript example
+(function() {
+	var blinks = document.getElementsByTagName('blink');
+	var visibility = 'hidden';
+	window.setInterval(function() {
+	for (var i = blinks.length - 1; i >= 0; i--) {
+		blinks[i].style.visibility = visibility;
+}
+	visibility = (visibility === 'visible') ? 'hidden' : 'visible';
+	}, 250);
+})();
+</script>
+<title lang="en">The HTML blink tag - SNU HTML Test References</title>
+</HEAD>
+<HR>
+<section>
+<H1 lang="en">The HTML blink tag</H1>
+<H2 lang="en">Notice: This tag contains flashing lights that strobe at a speed of 67%. If you are highly prone to seizures, <a href="about:blank">EXIT NOW</a></H2>
+</section>
+<HR>
+<section>
+<H1 lang="en">If this tag still works, the text will begin blinking. The text has been hidden in a details tag as a protection system for people with epilepsy.</H1>
+<H1 lang="en">This tag does not work in most browsers</H1>
+<H2 lang="en">Unsupported browsers:</H2>
+<H3 lang="en">Firefox 23 and up</H3>
+<H3 lang="en">Any version of Internet Explorer (1-11)</H3>
+<H3 lang="en">Note: I have applied JavaScript and CSS to make this tag work. Without it, the tag wouldn't show up in modern browsers.</H3>
+</section>
+<HR>
+<section>
+<H1 lang="en">Why it was removed</H1>
+<p lang="en">This tag wasn't a very important element of HTML, and it was considered unprofessional, distracting, and annoying. It was deprecated, but can still work with CSS and JS</p>
+</section>
+<HR>
+<section>
+<details><summary><H1 lang="en">Warning! Flashing lights. DO NOT CLICK HERE IF YOU ARE PRONE TO SEIZURES! [Final notice]</H1></summary>
+<p lang="en">The HTML blink tag makes blinking text in HTML. It is not recommended to use this element</p>
+<blink>Test</blink><br>
+<blink>Blink</blink><br>
+<p lang="en"><blink><a href="https://www.example.com">Blinking link</a></blink></p>
+<p lang="en"><blink><button>Blinking button</button></blink></p>
+<p lang="en"><blink><button><a href="https://www.example.com">Blinking button with link</a></button></blink></p>
+<p lang="en"><blink><details><summary>Blinking details.summary (doesn't blink)</summary><p lang="en">You opened the box.</p></details></blink></p>
+</details>
+</section>
+<HR>
+<section>
+<details><summary><H2 id="SnapshotSection" lang="en">View older versions of this page</H2></summary>
+<p lang="en"><button><a href="BLINKTAG_Snapshot1.htm">Snapshot 1 (January 13th 2020)</a></button></p>
+<p lang="en"><button><a href="BLINKTAG_Snapshot2.htm">Snapshot 2 (April 25th 2020)</a></button></p>
+<p lang="en"><button><a href="BLINKTAG_Snapshot3.htm">Snapshot 3 (No date)</a></button></p>
+<p lang="en"><button><a href="BLINKTAG_Snapshot4.htm">Snapshot 4 (No date)</a></button></p>
+<p lang="en"><button><a href="BLINKTAG_Snapshot5.htm">Snapshot 5 (No date)</a></button></p>
+<p lang="en"><button><a href="BLINKTAG_Snapshot6.htm">Snapshot 6 (No date)</a></button></p>
+<p lang="en"><button><a href="BLINKTAG_Snapshot7.htm">Snapshot 7 (No date)</a></button></p>
+<p lang="en"><button><a href="BLINKTAG_Snapshot8.htm">Snapshot 8 (No date)</a></button></p>
+<p lang="en"><button><a href="BLINKTAG_Snapshot9.htm">Snapshot 9 (No date)</a></button></p>
+<p lang="en"><button><a href="BLINKTAG_Snapshot10.htm">Snapshot 10 (No date)</a></button></p>
+</details>
+</section>
+<HR>
+<section>
+<H1 lang="en" id="Bottom">You have reached the bottom of this page!</H1>
+</section>
+<HR>
+<footer>
+<p lang="en">Footer is not yet propertly setup</p>
+</footer>
+</BODY>
+<!-- </BODY> !-->
+</HTML>
+<!-- End of script !-->
